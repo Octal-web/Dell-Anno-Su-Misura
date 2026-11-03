@@ -1,0 +1,401 @@
+{
+  "10-1": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "10_Expansão de Acabamentos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-25.jpg"
+  },
+  "10-2": {
+    "width": 5776,
+    "height": 4336,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "10_Expansão de Acabamentos/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1286138.jpg"
+  },
+  "10-3": {
+    "width": 6045,
+    "height": 7324,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "10_Expansão de Acabamentos/fotos por @lightbox (49).jpg"
+  },
+  "1-1": {
+    "width": 1440,
+    "height": 1080,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "1_Header/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-55.jpg",
+    "mobile": {
+      "width": 1215,
+      "height": 2160,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "1-2": {
+    "width": 5701,
+    "height": 4279,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "1_Header/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285661.jpg",
+    "mobile": {
+      "width": 2407,
+      "height": 4279,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "1-3": {
+    "width": 5776,
+    "height": 4336,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "1_Header/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285854.jpg",
+    "mobile": {
+      "width": 2439,
+      "height": 4336,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "1-4": {
+    "width": 5776,
+    "height": 4336,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "1_Header/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1286128.jpg",
+    "mobile": {
+      "width": 2439,
+      "height": 4336,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "2-1": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "2_Introdução/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-28.jpg"
+  },
+  "2-2": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "2_Introdução/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-91.jpg"
+  },
+  "3-1": {
+    "width": 5776,
+    "height": 4336,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "3_Cozinha/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1286138.jpg"
+  },
+  "4-1": {
+    "width": 2935,
+    "height": 5619,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "4_Etapas de Produção/_E4A9567.png"
+  },
+  "4-2": {
+    "width": 5457,
+    "height": 3638,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "4_Etapas de Produção/_MG_6177.jpg"
+  },
+  "4-3": {
+    "width": 5457,
+    "height": 3638,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "4_Etapas de Produção/_MG_6292.jpg"
+  },
+  "4-4": {
+    "width": 5616,
+    "height": 3744,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "4_Etapas de Produção/_MG_6331.jpg"
+  },
+  "5-1": {
+    "width": 2160,
+    "height": 1440,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "5_Soluções Personalizadas/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-72.jpg",
+    "mobile": {
+      "width": 1440,
+      "height": 1440,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "6-1": {
+    "width": 2160,
+    "height": 1440,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "6_Elementos Exclusivos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-57.jpg"
+  },
+  "6-2": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "6_Elementos Exclusivos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-63.jpg"
+  },
+  "6-3": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "6_Elementos Exclusivos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-64.jpg"
+  },
+  "6-4": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "6_Elementos Exclusivos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-71.jpg"
+  },
+  "7-1": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "7_Portas personalizadas/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-66.jpg"
+  },
+  "7-2": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "7_Portas personalizadas/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-67.jpg"
+  },
+  "7-3": {
+    "width": 4336,
+    "height": 5776,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "7_Portas personalizadas/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285922.jpg"
+  },
+  "7-4": {
+    "width": 6019,
+    "height": 8025,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "7_Portas personalizadas/Projeto Apto 02 Porto Alegre - Arq Renata Lopes  - Fotos por Lightbox E (41).jpg"
+  },
+  "8-1": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "8_Portas de passagem/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-28.jpg"
+  },
+  "8-2": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "8_Portas de passagem/30.07 DELL ANNO ATELIER_FOTÓGRAFO VITOR GUILHERME-29.jpg"
+  },
+  "8-3": {
+    "width": 5701,
+    "height": 4279,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "8_Portas de passagem/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285661.jpg"
+  },
+  "8-4": {
+    "width": 5504,
+    "height": 7588,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "8_Portas de passagem/Showroom Dell Anno Atelier 2021 - Fotos por Lightbox Estudio (35).jpg"
+  },
+  "9-1": {
+    "width": 1440,
+    "height": 2160,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "9_Produtos Únicos/23.02-OSA ARQ_FOTÓGRAFO VITOR GULHERME-89.jpg"
+  },
+  "9-2": {
+    "width": 3897,
+    "height": 5845,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "9_Produtos Únicos/DSC05034.jpg"
+  },
+  "9-3": {
+    "width": 5776,
+    "height": 4336,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "9_Produtos Únicos/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285732.jpg"
+  },
+  "9-4": {
+    "width": 3744,
+    "height": 5460,
+    "widths": [
+      480,
+      960,
+      1600
+    ],
+    "source": "9_Produtos Únicos/Showroom Dell Anno Atelier 2021 - Fotos por Lightbox Estudio (16).jpg"
+  },
+  "footer-1": {
+    "width": 4336,
+    "height": 3252,
+    "widths": [
+      480,
+      960,
+      1600,
+      2400
+    ],
+    "source": "Footer/Foto_PaolayRenato_Vinicius_Rosaneli_DellAnno_P1285967.jpg",
+    "mobile": {
+      "width": 4336,
+      "height": 4336,
+      "widths": [
+        480,
+        960,
+        1600
+      ]
+    }
+  },
+  "logo-1": {
+    "width": 3544,
+    "height": 2363,
+    "widths": [
+      400,
+      800
+    ],
+    "source": "Logos Su Misura/Logo Su Misura - Branco.png"
+  },
+  "logo-2": {
+    "width": 3544,
+    "height": 2363,
+    "widths": [
+      400,
+      800
+    ],
+    "source": "Logos Su Misura/Logo Su Misura -Preto.png"
+  }
+}
