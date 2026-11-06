@@ -1,18 +1,22 @@
 * { box-sizing: border-box; }
-:root { font-family: "helvetica-neue-lt-pro", sans-serif; font-weight: 400; color: #565656; background: #fff; font-synthesis: none; -webkit-font-smoothing: antialiased; }
+:root { font-family: "helvetica-neue-lt-pro", sans-serif; font-weight: 300; color: #000; background: #fff; font-synthesis: none; -webkit-font-smoothing: antialiased; }
 html { scroll-behavior: smooth; }
 body { margin: 0; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; color: inherit; }
-p { margin: 0; font-size: clamp(16px, 1.85vw, 29px); line-height: 1.3; font-weight: 400; letter-spacing: -.035em; }
-h1, h2, h3 { margin: 0; font-weight: 400; }
-h2, h3, .serif { font-family: "playfair-display", serif; }
-h2, h3 { color: #20211e; font-size: clamp(30px, 4.25vw, 66px); line-height: .98; letter-spacing: -.025em; }
-h2 em, h3 em { font-size: .85em; font-weight: 400; }
+p { margin: 0; font-size: clamp(16px, 1.85vw, 29px); line-height: 1.3; }
+p, h1, h2, h3 { text-wrap: balance; }
+h1, h2, h3 { margin: 0; font-weight: 300; }
+/* Playfair é sempre semibold itálico */
+h2, h3, .serif { font-family: "playfair-display", serif; font-weight: 600; font-style: italic; }
+h2, h3 { font-size: clamp(30px, 4.25vw, 66px); line-height: .98; }
+h2 em, h3 em { font-size: .85em; }
 .content { width: 88%; max-width: 1680px; margin-inline: auto; }
 .photo { display: block; overflow: hidden; }
-.photo img { display: block; width: 100%; height: 100%; object-fit: cover; max-height: 100dvh; }
+.photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.hero .photo img { max-height: 100dvh; }
 .split-line-mask { padding-bottom: .14em; margin-bottom: -.14em; }
+.split-line em { font-weight: 400; }
 .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
 .skip-link { position: fixed; top: 12px; left: 12px; background: #fff; color: #222; padding: 14px; z-index: 100; transform: translateY(-200%); }
 .skip-link:focus { transform: translateY(0); }
@@ -22,7 +26,7 @@ h2 em, h3 em { font-size: .85em; font-weight: 400; }
 .hero > .logo { position: absolute; z-index: 2; width: 22%; height: auto; top: 4.5%; left: 39%; pointer-events: none; }
 .logo img { object-fit: contain; }
 .swiper-pagination { display: flex; justify-content: center; align-items: center; gap: .8vw; }
-.swiper .swiper-pagination-bullet { display: block; flex: 0 0 auto; width: clamp(16px, 2.85vw, 42px); height: clamp(16px, 2.85vw, 42px); margin: 0 !important; border: 1.5px solid currentColor; background: transparent; opacity: 1; border-radius: 100px; transition: width .35s ease; cursor: pointer; padding: 0; position: relative; }
+.swiper .swiper-pagination-bullet { overflow: hidden; display: block; flex: 0 0 auto; width: clamp(16px, 2.85vw, 42px); height: clamp(16px, 2.85vw, 42px); margin: 0 !important; border: 1.5px solid currentColor; background: transparent; opacity: 1; border-radius: 100px; transition: width .35s ease; cursor: pointer; padding: 0; position: relative; }
 .swiper-pagination-bullet::after { content: ''; position: absolute; inset: -10px -3px; }
 .swiper .swiper-pagination-bullet-active { width: clamp(48px, 11.7vw, 170px); }
 .hero .swiper-pagination { color: #fff; bottom: 7%; }
@@ -31,14 +35,15 @@ h2 em, h3 em { font-size: .85em; font-weight: 400; }
 .intro-copy { grid-column: 1; grid-row: 1; max-width: 87%; margin: 0 0 17% 2.5%; }
 .intro-bedroom { grid-column: 1; grid-row: 2 / 4; aspect-ratio: .715; }
 .intro-kitchen { grid-column: 2; grid-row: 1 / 3; aspect-ratio: .685; }
-.intro-outro { grid-column: 2; grid-row: 3; text-align: right; max-width: 75%; justify-self: end; padding-top: 17%; }
+.intro-outro { grid-column: 2; grid-row: 3; text-align: right; max-width: 75%; justify-self: end; align-self: start; margin-top: 17.5%; }
 .kitchen-banner { width: 100%; aspect-ratio: 1.55; }
 .process { position: relative; padding-block: 6.4%; }
-.eyebrow { font-family: "helvetica-neue-lt-pro", sans-serif; font-size: clamp(13px, 1.85vw, 29px); text-transform: uppercase; letter-spacing: .23em; font-weight: 400; line-height: 1.3; }
+.eyebrow { font-family: "helvetica-neue-lt-pro", sans-serif; font-size: clamp(13px, 1.85vw, 29px); text-transform: uppercase; letter-spacing: .23em; font-weight: 300; font-style: normal; line-height: 1.3; }
 .process > .eyebrow { position: absolute; top: 10%; left: 0; z-index: 2; }
 .process-slide { display: grid; grid-template-columns: 1fr 1fr; min-height: 45vw; background: #fff; }
 .process-copy { align-self: center; padding-right: 25%; padding-top: 6%; padding-bottom: 10%; }
-.process-copy p { margin-top: 10%; }
+.process-copy em { font-weight: 400; }
+.process-copy p { margin-top: 10%; max-width: 500px; }
 .process-slide > .photo { aspect-ratio: .98; filter: grayscale(1); }
 .process-swiper .swiper-pagination { bottom: 0; left: 0; justify-content: flex-start; width: 48%; padding: 2px; }
 .solutions-banner { position: relative; aspect-ratio: 2.12; color: #fff; overflow: hidden; }
@@ -69,13 +74,13 @@ h2 em, h3 em { font-size: .85em; font-weight: 400; }
 .closing-banner { position: relative; aspect-ratio: 1.8; overflow: hidden; }
 .closing-banner > .photo { height: 100%; }
 .closing-banner p { position: absolute; color: #fff; top: 20%; left: 6%; width: 46%; }
-.footer { padding-block: 7% 9%; text-align: center; }
+.footer { padding-block: 7%; text-align: center; }
 .footer > div { max-width: 78%; margin-inline: auto; }
 .footer p + p { margin-top: 3%; }
 .footer .logo { max-width: 400px; width: 29%; margin: 9% auto 0; }
 @media (min-width: 1920px) { .mosaic { grid-template-rows: repeat(2, 660px); gap: 24px; margin-bottom: 24px; } .process-slide { min-height: 800px; } }
 @media (max-width: 600px) {
-  p { font-size: 16px; line-height: 1.45; letter-spacing: -.025em; }
+  p { font-size: 16px; line-height: 1.45; }
   .content { width: 88%; }
   .hero { height: 88svh; min-height: 520px; max-height: 850px; }
   .hero > .logo { width: 30%; left: 35%; top: 6%; }
@@ -85,7 +90,7 @@ h2 em, h3 em { font-size: .85em; font-weight: 400; }
   .intro-copy { grid-column: 1 / 3; margin: 0 0 8px; max-width: 100%; }
   .intro-bedroom { grid-row: 2; aspect-ratio: .64; }
   .intro-kitchen { grid-row: 2; aspect-ratio: .64; margin-top: 30px; }
-  .intro-outro { grid-column: 1 / 3; grid-row: 3; padding-top: 6px; max-width: 90%; }
+  .intro-outro { grid-column: 1 / 3; grid-row: 3; padding-top: 6px; margin-top: 0; max-width: 90%; }
   .kitchen-banner { aspect-ratio: 1.12; }
   .process { padding-block: 32px; }
   .process > .eyebrow { position: static; margin-bottom: 24px; }

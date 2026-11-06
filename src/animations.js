@@ -19,7 +19,8 @@ export function useSiteAnimations() {
       gsap.timeline({ defaults: { ease: 'power3.out' } })
         .from('.hero .photo img', { scale: 1.14, duration: 2.4, ease: 'power2.out' })
         .from('.hero > .logo img', { autoAlpha: 0, yPercent: 25, duration: 1.4 }, .35)
-        .from('.hero .swiper-pagination', { autoAlpha: 0, y: 20, duration: 1 }, .8);
+        // fromTo explícito: com .from o GSAP lia opacity 0 como valor final e os dots ficavam invisíveis
+        .fromTo('.hero .swiper-pagination', { autoAlpha: 0, y: 20 }, { autoAlpha: 1, y: 0, duration: 1 }, .8);
       const heroScroll = { trigger: '.hero', start: 'top top', end: 'bottom top', scrub: true };
       gsap.to('.hero-swiper', { yPercent: 22, ease: 'none', scrollTrigger: heroScroll });
       gsap.to('.hero > .logo', { yPercent: -60, autoAlpha: 0, ease: 'none', scrollTrigger: { ...heroScroll, end: '60% top' } });
